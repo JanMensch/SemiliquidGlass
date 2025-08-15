@@ -4,6 +4,7 @@
 
 ## User settings
 xcuserdata/
+DerivedData/
 
 ## Obj-C/Swift specific
 *.hmap
@@ -20,7 +21,6 @@ playground.xcworkspace
 # Swift Package Manager
 #
 # Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
 # Package.pins
 # Package.resolved
 # *.xcodeproj
@@ -30,6 +30,10 @@ playground.xcworkspace
 # .swiftpm
 
 .build/
+Packages/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
 
 # CocoaPods
 #
@@ -49,14 +53,6 @@ playground.xcworkspace
 
 Carthage/Build/
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo.
-# Instead, use fastlane to re-generate the screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/#source-control
+# macOS
 
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
+.DS_Store
