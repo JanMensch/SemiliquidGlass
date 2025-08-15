@@ -10,32 +10,43 @@ This library provides APIs to take care of the availability checks for you and m
 
 Instead of 
 
-    @ViewBuilder
-    var body: some View {
-        if #available(iOS 26, *) {
-            someButton
-                .glassEffect(.regular.tint(.orange))
-        } else {
-            someButton
-        }
+```swift
+@ViewBuilder
+var body: some View {
+    if #available(iOS 26, *) {
+        someButton
+            .glassEffect(.regular.tint(.orange))
+    } else {
+        someButton
     }
+}
+```
     
 Simply write
 
-    var body: some View {
-        someButton
-            .glassEffectIfAvailable(.regular.tint(.orange))
-    }
+```swift
+var body: some View {
+    someButton
+        .glassEffectIfAvailable(.regular.tint(.orange))
+}
+```
     
 Or do you want to apply a certain other style if the client doesn't support Liquid Glass yet? Easy!
 
-    var body: some View {
-        someButton
-            .glassEffectIfAvailable()
-            .noGlassAvailable {
-                $0.background(Color.orange)
-            }
-    }
+```swift
+var body: some View {
+    someButton
+        .glassEffectIfAvailable()
+        .noGlassAvailable {
+            $0.background(Color.orange)
+        }
+}
+```
+
+## Liquid Glass
+
+For details on how to use Liquid Glass itself, please refer to [Apple's documentation](https://developer.apple.com/documentation/TechnologyOverviews/adopting-liquid-glass).
+This library only provides a mirrored API that is available on pre Liquid Glass OS versions (e.g. iOS 18), so that you can refer to Liquid Glass usage without explicit availability checks all over your code.  
     
 ## Goal
 
