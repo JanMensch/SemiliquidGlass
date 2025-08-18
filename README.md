@@ -1,4 +1,4 @@
-# SemifluidGlass
+# SemiliquidGlass
 
 You want to make use of Liquid Glass?
 But you don't want to raise the deployment target to iOS 26?
