@@ -1,10 +1,10 @@
 # SemiliquidGlass
 
 You want to make use of Liquid Glass?
-But you don't want to raise the deployment target to iOS 26?
+But you don't want to raise the deployment target to iOS/macOS/watchOS/tvOS 26?
 Or you don't want to litter your code with availability checks like `if #available(iOS 26, *)`?
 
-`SemifluidGlass` has got you covered.
+`SemiliquidGlass` has got you covered.
 
 Here's an example based on a SwiftUI `#Preview` in the code. The text gets switched out based on `SemiGlass.liquidGlassSupported` and glass effects are only applied if the client supports them via `.glassEffectIfAvailable(.regular)`.
 
@@ -70,6 +70,22 @@ APIs are built in a way that once you raise your deployment target to a Liquid G
 ## Documentation
 
 All types, methods and properties carry documentation comments. You can inspect the documentation in Xcode while coding or look it up [here on GitHub](https://janmensch.github.io/SemiliquidGlass/documentation/semiliquidglass/).
+
+## Work in progress
+
+Right now this library is in a pre-release state. Main things I'm still working on:
+
+- Naming of properties, methods and modifiers in the API. For example `.noGlassAvailable()` and `.whenGlassAvailable()`. I want it to be nice to write, nice to scan, but also easy to remove once you raise you deployment target and only support Liquid Glass OSs.
+- Support for `.glassEffectUnion(id:namespace:)`
+- Support for `GlassEffectTransition`
+
+Plus a few cosmetic things:
+
+- Automated deployments, version bumps, documentation generation of this library
+- Nicer documentation
+- Example project
+
+Input, suggestions and contributions are welcome.
 
 ## License
 
