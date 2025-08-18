@@ -63,6 +63,9 @@ This library handles the API availability checks for all relevant operating syst
 The goal of this library is to help teams navigate the duration where apps need to support older OS versions but still want to leverage Liquid Glass when the client supports it.
 APIs are built in a way that once you raise your deployment target to a Liquid Glass capable OS, you can simply remove the library, remove fallbacks and rename usages of `.glassEffectIfAvailable()` to `.glassEffect()`.
 
+## Documentation
+
+All types, methods and properties carry documentation comments. You can inspect the documentation in Xcode while coding or look it up [here on GitHub](https://janmensch.github.io/SemiliquidGlass/documentation/semiliquidglass/).
 
 ## License
 
