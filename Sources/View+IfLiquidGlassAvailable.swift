@@ -14,11 +14,11 @@ public extension View {
     /// - Parameter transform: Closure that gets this view passed in.
     ///
     /// Usage example:
-    /// ````
-    ///     someView
-    ///         .whenGlassAvailable {
-    ///             $0.padding()
-    ///         }
+    /// ````swift
+    /// someView
+    ///     .whenGlassAvailable {
+    ///         $0.padding()
+    ///     }
     /// ````
     @ViewBuilder
     func whenGlassAvailable(transform: (Self) -> some View) -> some View {
@@ -34,11 +34,11 @@ public extension View {
     /// - Parameter transform: Closure that gets this view passed in.
     ///
     /// Usage example:
-    /// ````
-    ///     someView
-    ///         .noGlassAvailable {
-    ///             $0.background(Color.orange)
-    ///         }
+    /// ````swift
+    /// someView
+    ///     .noGlassAvailable {
+    ///         $0.background(Color.orange)
+    ///     }
     /// ````
     @ViewBuilder
     func noGlassAvailable(transform: (Self) -> some View) -> some View {

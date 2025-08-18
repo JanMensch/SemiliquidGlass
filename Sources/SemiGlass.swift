@@ -59,10 +59,10 @@ public struct SemiGlass: Equatable, Sendable, SendableMetatype {
     /// Use instead of `Glass.clear`.
     static public let clear = SemiGlass(glassType: .clear, interactive: nil, tint: nil)
 
-    /// Use instead of `Glass.identity`
+    /// Use instead of `Glass.identity`.
     static public let identity = SemiGlass(glassType: .identity, interactive: nil, tint: nil)
 
-    /// Use instead of `Glass.regular`
+    /// Use instead of `Glass.regular`.
     static public let regular = SemiGlass(glassType: .regular, interactive: nil, tint: nil)
 
     // MARK: - Init
