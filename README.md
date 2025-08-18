@@ -6,6 +6,10 @@ Or you don't want to litter your code with availability checks like `if #availab
 
 `SemifluidGlass` has got you covered.
 
+Here's an example based on a SwiftUI `#Preview` in the code. The text gets switched out based on `SemiGlass.liquidGlassSupported` and glass effects are only applied if the client supports them via `.glassEffectIfAvailable(.regular)`.
+
+![Usage preview](Assets/semiliquid-preview.gif)
+
 This library provides APIs to take care of the availability checks for you and make it easy to refer to Liquid Glass on code bases with an older deployment target.
 
 Instead of 
