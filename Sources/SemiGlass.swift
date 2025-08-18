@@ -33,6 +33,27 @@ public struct SemiGlass: Equatable, Sendable, SendableMetatype {
     private let interactive: Bool?
     private let tint: Color?
 
+    /// Static query property to determine whether liquid glass is supported by the client or not.
+    /// Use for switching out UI between old and new variants.
+    ///
+    /// Usage example:
+    /// ````swift
+    /// var body: some View {
+    ///     if SemiGlass.liquidGlassSupported {
+    ///         newViewContent
+    ///     } else {
+    ///         oldViewContent
+    ///     }
+    /// }
+    /// ````
+    public static var liquidGlassSupported: Bool {
+        if #available(iOS 26.0, tvOS 26.0, watchOS 26.0, macOS 26.0, *) {
+            return true
+        } else {
+            return false
+        }
+    }
+
     // MARK: - Glass variants
 
     /// Use instead of `Glass.clear`.
@@ -88,6 +109,12 @@ public struct SemiGlass: Equatable, Sendable, SendableMetatype {
 #Preview {
     @Previewable @State var isExpanded = false
     @Previewable @Namespace var glassNamespace
+
+    if SemiGlass.liquidGlassSupported {
+        Text("Previewing content with Liquid Glass")
+    } else {
+        Text("Previewing content with fallback behavior:")
+    }
 
     SemiGlassEffectContainer(spacing: 20.0) {
         HStack(spacing: 20.0) {
