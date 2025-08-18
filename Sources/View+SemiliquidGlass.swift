@@ -21,7 +21,7 @@ public extension View {
         _ glass: SemiGlass = .regular,
         in shape: some Shape = Capsule()
     ) -> some View {
-        if #available(iOS 26, *) {
+        if #available(iOS 26.0, tvOS 26.0, watchOS 26.0, macOS 26.0, *) {
             self
                 .glassEffect(glass.mappedToAppleGlass, in: shape)
         } else {
@@ -39,7 +39,7 @@ public extension View {
         _ id: (some Hashable & Sendable)?,
         in namespace: Namespace.ID
     ) -> some View {
-        if #available(iOS 26, *) {
+        if #available(iOS 26.0, tvOS 26.0, watchOS 26.0, macOS 26.0, *) {
             self
                 .glassEffectID(id, in: namespace)
         } else {

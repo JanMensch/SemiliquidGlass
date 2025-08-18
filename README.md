@@ -46,7 +46,17 @@ var body: some View {
 ## Liquid Glass
 
 For details on how to use Liquid Glass itself, please refer to [Apple's documentation](https://developer.apple.com/documentation/TechnologyOverviews/adopting-liquid-glass).
-This library only provides a mirrored API that is available on pre Liquid Glass OS versions (e.g. iOS 18), so that you can refer to Liquid Glass usage without explicit availability checks all over your code.  
+This library only provides a mirrored API that is available on pre Liquid Glass OS versions (e.g. iOS 18), so that you can refer to Liquid Glass usage without explicit availability checks all over your code.
+
+## Supported operating systems
+
+This library handles the API availability checks for all relevant operating systems:
+
+- ![iOS](https://img.shields.io/badge/iOS-supported-brightgreen)
+- ![iPadOS](https://img.shields.io/badge/iPadOS-supported-brightgreen)
+- ![watchOS](https://img.shields.io/badge/watchOS-supported-brightgreen)
+- ![macOS](https://img.shields.io/badge/macOS-supported-brightgreen)
+- ![tvOS](https://img.shields.io/badge/tvOS-supported-brightgreen)
     
 ## Goal
 

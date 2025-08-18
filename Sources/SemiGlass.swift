@@ -72,7 +72,7 @@ public struct SemiGlass: Equatable, Sendable, SendableMetatype {
 
     /// Maps a `SemiGlass` to an actual iOS 26+ `Glass` enum instance.
     /// - Returns: The `Glass` material with the identical name, with the correct tint and interactivity setting.
-    @available(iOS 26, *)
+    @available(iOS 26.0, tvOS 26.0, watchOS 26.0, macOS 26.0, *)
     public var mappedToAppleGlass: Glass {
         switch self.glassType {
         case .clear:

@@ -22,7 +22,7 @@ public extension View {
     /// ````
     @ViewBuilder
     func whenGlassAvailable(transform: (Self) -> some View) -> some View {
-        if #available(iOS 26, *) {
+        if #available(iOS 26.0, tvOS 26.0, watchOS 26.0, macOS 26.0, *) {
             transform(self)
         } else {
             self
@@ -42,7 +42,7 @@ public extension View {
     /// ````
     @ViewBuilder
     func noGlassAvailable(transform: (Self) -> some View) -> some View {
-        if #unavailable(iOS 26) {
+        if #unavailable(iOS 26.0, tvOS 26.0, watchOS 26.0, macOS 26.0) {
             transform(self)
         } else {
             self

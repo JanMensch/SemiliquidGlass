@@ -57,7 +57,7 @@ public struct SemiGlassEffectContainer<Content: View, FallbackContent: View>: Vi
     }
 
     public var body: some View {
-        if #available(iOS 26, *) {
+        if #available(iOS 26.0, tvOS 26.0, watchOS 26.0, macOS 26.0, *) {
             GlassEffectContainer(spacing: spacing) {
                 content
             }
