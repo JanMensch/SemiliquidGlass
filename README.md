@@ -1,5 +1,7 @@
 # SemiliquidGlass
 
+![SPM](https://img.shields.io/badge/Swift_Package_Manager-supported-brightgreen)
+
 You want to make use of Liquid Glass?
 But you don't want to raise the deployment target to iOS/macOS/watchOS/tvOS 26?
 Or you don't want to litter your code with availability checks like `if #available(iOS 26, *)`?
