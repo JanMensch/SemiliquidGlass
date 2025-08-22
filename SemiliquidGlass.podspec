@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SemiliquidGlass'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Use Liquid Glass comfortably without raising your deployment target.'
   s.description      = <<-DESC
 Use Liquid Glass without availability checks and without raising your deployment target. Add easy fallbacks for OSs without Liquid Glass.
