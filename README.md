@@ -78,7 +78,6 @@ All types, methods and properties carry documentation comments. You can inspect 
 Right now this library is in a pre-release state. Main things I'm still working on:
 
 - Naming of properties, methods and modifiers in the API. For example `.noGlassAvailable()` and `.whenGlassAvailable()`. I want it to be nice to write, nice to scan, but also easy to remove once you raise you deployment target and only support Liquid Glass OSs.
-- Support for `.glassEffectUnion(id:namespace:)`
 - Support for `GlassEffectTransition`
 
 Plus a few cosmetic things:
@@ -88,6 +87,14 @@ Plus a few cosmetic things:
 - Example project
 
 Input, suggestions and contributions are welcome.
+
+## Decisions made when building this library
+
+This library tries to make as few assumptions as possible. That is why for example the view modifiers `.glassEffectIfAvailable()`, `.glassEffectIDIfAvailable()` and `.glassEffectUnionIfAvailable(id:namespace:)` don't provide parameters to define fallback behavior.
+
+Reason 1: If there were such parameters, this library would make assumptions on how your app should handle the case that the client is running pre xOS 26. It might be correct for some apps, but not for most. Please define your own fallback behavior via `.noGlassAvailable(transform:)`.
+
+Reason 2: This library wants to be as easy to remove as possible, once you raise your deployment target to xOS 26. Meaning you can search and replace e.g. `.glassEffectIfAvailable` with `.glassEffect` through your entire codebase in one go. Just as any place with `.noGlassAvailable(transform:)` can be removed. If there were fallback parameters, you would need stop and think on every call site.
 
 ## License
 
