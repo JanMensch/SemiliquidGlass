@@ -1,6 +1,7 @@
 # SemiliquidGlass
 
 ![SPM](https://img.shields.io/badge/Swift_Package_Manager-supported-brightgreen)
+![CocoaPods](https://img.shields.io/badge/CocoaPods-supported-brightgreen)
 
 You want to make use of Liquid Glass?
 But you don't want to raise the deployment target to iOS/macOS/watchOS/tvOS 26?
