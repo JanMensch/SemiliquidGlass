@@ -45,6 +45,7 @@
       "anchor" : "Extended-Modules",
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SwiftUI",
         "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SwiftUICore"
       ],
       "title" : "Extended Modules"
@@ -174,6 +175,17 @@
   "title" : "SemiGlassEffectContainer",
   "type" : "topic",
   "url" : "\/documentation\/semiliquidglass\/semiglasseffectcontainer"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SwiftUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SwiftUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SwiftUI",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/swiftui"
 },
 "doc://SemiliquidGlass/documentation/SemiliquidGlass/SwiftUICore": {
   "abstract" : [

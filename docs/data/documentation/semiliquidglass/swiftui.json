@@ -1,0 +1,113 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SwiftUI"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:m:s:e:s:7SwiftUI6ButtonV15SemiliquidGlassE05glassC16StyleIfAvailableQryF",
+    "modules" : [
+      {
+        "name" : "SemiliquidGlass"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Extended Module",
+    "symbolKind" : "extension",
+    "title" : "SwiftUI"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Extended-Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SwiftUI\/Button"
+      ],
+      "title" : "Extended Structures"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/semiliquidglass\/swiftui"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SemiliquidGlass/documentation/SemiliquidGlass": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SemiliquidGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SwiftUI": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SwiftUI",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SwiftUI",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/swiftui"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SwiftUI/Button": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "s:7SwiftUI6ButtonV",
+      "text" : "Button"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SwiftUI\/Button",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Button"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Button",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/swiftui\/button"
+}
+}
+}

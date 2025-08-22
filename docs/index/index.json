@@ -8475,6 +8475,38 @@
           {
             "children" : [
               {
+                "title" : "Extended Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/semiliquidglass\/swiftui\/button\/glassbuttonstyleifavailable()",
+                    "title" : "func glassButtonStyleIfAvailable() -> some View",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/semiliquidglass\/swiftui\/button\/prominentglassbuttonstyleifavailable()",
+                    "title" : "func prominentGlassButtonStyleIfAvailable() -> some View",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/semiliquidglass\/swiftui\/button",
+                "title" : "Button",
+                "type" : "extension"
+              }
+            ],
+            "path" : "\/documentation\/semiliquidglass\/swiftui",
+            "title" : "SwiftUI",
+            "type" : "extension"
+          },
+          {
+            "children" : [
+              {
                 "title" : "Extended Protocols",
                 "type" : "groupMarker"
               },
