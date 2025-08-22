@@ -75,20 +75,11 @@ All types, methods and properties carry documentation comments. You can inspect 
 
 ## Work in progress
 
-Right now this library is in a pre-release state. Main things I'm still working on:
-
-- Support for `GlassEffectTransition`
-
-Plus a few cosmetic things:
-
-- Naming of properties, methods and modifiers in the API. For example `.noGlassAvailable()` and `.whenGlassAvailable()`. I want it to be nice to write, nice to scan, but also easy to remove once you raise you deployment target and only support Liquid Glass OSs.
-- Automated deployments, version bumps, documentation generation of this library
-- Nicer documentation
-- Example project
+Refer to the [issues](https://github.com/JanMensch/SemiliquidGlass/issues) section of this repo to see what things are being worked on.
 
 ## Collaboration
 
-Input, suggestions and contributions are welcome. Please feel free to contact me to discuss ideas or even open a PR.
+Input, suggestions and contributions are welcome. Please feel free to contact me, open an [issue](https://github.com/JanMensch/SemiliquidGlass/issues) or even open a PR to help directly.
 
 ## Decisions made when building this library
 
