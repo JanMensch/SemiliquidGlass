@@ -1,1 +1,248 @@
-{"schemaVersion":{"major":0,"patch":0,"minor":3},"kind":"symbol","sections":[],"metadata":{"fragments":[{"text":"static","kind":"keyword"},{"text":" ","kind":"text"},{"text":"let","kind":"keyword"},{"text":" ","kind":"text"},{"text":"clear","kind":"identifier"},{"text":": ","kind":"text"},{"text":"SemiGlass","kind":"typeIdentifier","preciseIdentifier":"s:15SemiliquidGlass04SemiB0V"}],"symbolKind":"property","externalID":"s:15SemiliquidGlass04SemiB0V5clearACvpZ","roleHeading":"Type Property","modules":[{"name":"SemiliquidGlass"}],"title":"clear","role":"symbol"},"variants":[{"paths":["\/documentation\/semiliquidglass\/semiglass\/clear"],"traits":[{"interfaceLanguage":"swift"}]}],"abstract":[{"text":"Use instead of ","type":"text"},{"type":"codeVoice","code":"Glass.clear"},{"text":".","type":"text"}],"hierarchy":{"paths":[["doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass"]]},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/clear"},"primaryContentSections":[{"kind":"declarations","declarations":[{"platforms":["macOS"],"tokens":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"clear"},{"kind":"text","text":": "},{"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass","kind":"typeIdentifier","preciseIdentifier":"s:15SemiliquidGlass04SemiB0V","text":"SemiGlass"}],"languages":["swift"]}]}],"references":{"doc://SemiliquidGlass/documentation/SemiliquidGlass":{"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","title":"SemiliquidGlass","type":"topic","kind":"symbol","url":"\/documentation\/semiliquidglass","role":"collection","abstract":[]},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/clear":{"url":"\/documentation\/semiliquidglass\/semiglass\/clear","title":"clear","role":"symbol","kind":"symbol","type":"topic","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/clear","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"clear"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:15SemiliquidGlass04SemiB0V","text":"SemiGlass"}],"abstract":[{"type":"text","text":"Use instead of "},{"type":"codeVoice","code":"Glass.clear"},{"type":"text","text":"."}]},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass":{"fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"SemiGlass","kind":"identifier"}],"title":"SemiGlass","navigatorTitle":[{"text":"SemiGlass","kind":"identifier"}],"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass","url":"\/documentation\/semiliquidglass\/semiglass","abstract":[{"type":"text","text":"This type makes it possible to refer to a “potentially existing” "},{"code":"Glass","type":"codeVoice"},{"text":" effect without needing to worry about availability checks yourself.","type":"text"}],"type":"topic","kind":"symbol","role":"symbol"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Use instead of ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass.clear",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/clear"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15SemiliquidGlass04SemiB0V5clearACvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "clear"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:15SemiliquidGlass04SemiB0V",
+        "text" : "SemiGlass"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SemiliquidGlass"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "clear"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "clear"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:15SemiliquidGlass04SemiB0V",
+              "text" : "SemiGlass"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/semiliquidglass\/semiglass\/clear"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SemiliquidGlass/documentation/SemiliquidGlass": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SemiliquidGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass": {
+  "abstract" : [
+    {
+      "text" : "This type makes it possible to refer to a “potentially existing” ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " effect without needing to worry about availability checks yourself.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlass"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlass"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SemiGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/clear": {
+  "abstract" : [
+    {
+      "text" : "Use instead of ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass.clear",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clear"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15SemiliquidGlass04SemiB0V",
+      "text" : "SemiGlass"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/clear",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clear",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass\/clear"
+}
+}
+}

@@ -1,1 +1,427 @@
-{"sections":[],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/semiliquidglass\/semiglasseffectcontainer\/accessibilitydirecttouch(_:options:)"]}],"metadata":{"role":"symbol","roleHeading":"Instance Method","modules":[{"name":"SemiliquidGlass","relatedModules":["SwiftUICore"]}],"fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"accessibilityDirectTouch"},{"kind":"text","text":"("},{"kind":"typeIdentifier","preciseIdentifier":"s:Sb","text":"Bool"},{"kind":"text","text":", "},{"kind":"externalParam","text":"options"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI31AccessibilityDirectTouchOptionsV","text":"AccessibilityDirectTouchOptions"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI15ModifiedContentV","text":"ModifiedContent"},{"kind":"text","text":"<"},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":", "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI31AccessibilityAttachmentModifierV","text":"AccessibilityAttachmentModifier"},{"kind":"text","text":">"}],"extendedModule":"SwiftUICore","title":"accessibilityDirectTouch(_:options:)","externalID":"s:7SwiftUI4ViewPAAE24accessibilityDirectTouch_7optionsAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSb_AA0jeF7OptionsVtF::SYNTHESIZED::s:15SemiliquidGlass04SemiB15EffectContainerV","platforms":[{"name":"iOS","introducedAt":"17.0","deprecated":false,"unavailable":false,"beta":false},{"name":"macOS","introducedAt":"14.0","deprecated":false,"unavailable":false,"beta":false},{"name":"tvOS","introducedAt":"17.0","deprecated":false,"unavailable":false,"beta":false},{"name":"watchOS","introducedAt":"10.0","deprecated":false,"unavailable":false,"beta":false}],"symbolKind":"method"},"primaryContentSections":[{"declarations":[{"tokens":[{"kind":"attribute","text":"nonisolated"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"accessibilityDirectTouch"},{"kind":"text","text":"("},{"kind":"externalParam","text":"_"},{"kind":"text","text":" "},{"kind":"internalParam","text":"isDirectTouchArea"},{"kind":"text","text":": "},{"preciseIdentifier":"s:Sb","kind":"typeIdentifier","text":"Bool"},{"kind":"text","text":" = true, "},{"kind":"externalParam","text":"options"},{"kind":"text","text":": "},{"preciseIdentifier":"s:7SwiftUI31AccessibilityDirectTouchOptionsV","kind":"typeIdentifier","text":"AccessibilityDirectTouchOptions"},{"kind":"text","text":" = []) -> "},{"preciseIdentifier":"s:7SwiftUI15ModifiedContentV","kind":"typeIdentifier","text":"ModifiedContent"},{"kind":"text","text":"<"},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":", "},{"preciseIdentifier":"s:7SwiftUI31AccessibilityAttachmentModifierV","kind":"typeIdentifier","text":"AccessibilityAttachmentModifier"},{"kind":"text","text":">"}],"platforms":["macOS"],"languages":["swift"]}],"kind":"declarations"}],"identifier":{"url":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/accessibilityDirectTouch(_:options:)","interfaceLanguage":"swift"},"hierarchy":{"paths":[["doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer"]]},"schemaVersion":{"minor":3,"major":0,"patch":0},"abstract":[{"type":"text","text":"Inherited from "},{"type":"codeVoice","code":"View.accessibilityDirectTouch(_:options:)"},{"type":"text","text":"."}],"kind":"symbol","references":{"doc://SemiliquidGlass/documentation/SemiliquidGlass":{"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","title":"SemiliquidGlass","type":"topic","kind":"symbol","url":"\/documentation\/semiliquidglass","role":"collection","abstract":[]},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer":{"url":"\/documentation\/semiliquidglass\/semiglasseffectcontainer","role":"symbol","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer","abstract":[{"text":"Makes ","type":"text"},{"code":"GlassEffectContainer","type":"codeVoice"},{"text":" usable on pre Liquid Glass OSs without availability checks.","type":"text"},{"type":"text","text":" "},{"type":"text","text":"Provides fallback variant content to display if client does not support Liquid Glass."},{"text":" ","type":"text"},{"text":"Optionally allows to display same content for both cases (if Liquid Glass is available or not).","type":"text"}],"fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"SemiGlassEffectContainer","kind":"identifier"}],"kind":"symbol","title":"SemiGlassEffectContainer","navigatorTitle":[{"text":"SemiGlassEffectContainer","kind":"identifier"}],"type":"topic"},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer/accessibilityDirectTouch(_:options:)":{"type":"topic","abstract":[],"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/accessibilityDirectTouch(_:options:)","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"accessibilityDirectTouch","kind":"identifier"},{"text":"(","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"},{"text":", ","kind":"text"},{"text":"options","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"AccessibilityDirectTouchOptions","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI31AccessibilityDirectTouchOptionsV"},{"text":") -> ","kind":"text"},{"text":"ModifiedContent","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI15ModifiedContentV"},{"text":"<","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"AccessibilityAttachmentModifier","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI31AccessibilityAttachmentModifierV"},{"text":">","kind":"text"}],"title":"accessibilityDirectTouch(_:options:)","kind":"symbol","role":"symbol","url":"\/documentation\/semiliquidglass\/semiglasseffectcontainer\/accessibilitydirecttouch(_:options:)"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.accessibilityDirectTouch(_:options:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/accessibilityDirectTouch(_:options:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE24accessibilityDirectTouch_7optionsAA15ModifiedContentVyxAA31AccessibilityAttachmentModifierVGSb_AA0jeF7OptionsVtF::SYNTHESIZED::s:15SemiliquidGlass04SemiB15EffectContainerV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "accessibilityDirectTouch"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "options"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI31AccessibilityDirectTouchOptionsV",
+        "text" : "AccessibilityDirectTouchOptions"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI15ModifiedContentV",
+        "text" : "ModifiedContent"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI31AccessibilityAttachmentModifierV",
+        "text" : "AccessibilityAttachmentModifier"
+      },
+      {
+        "kind" : "text",
+        "text" : ">"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SemiliquidGlass",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "14.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "17.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "accessibilityDirectTouch(_:options:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "accessibilityDirectTouch"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "isDirectTouchArea"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " = true, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "options"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI31AccessibilityDirectTouchOptionsV",
+              "text" : "AccessibilityDirectTouchOptions"
+            },
+            {
+              "kind" : "text",
+              "text" : " = []) -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI15ModifiedContentV",
+              "text" : "ModifiedContent"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI31AccessibilityAttachmentModifierV",
+              "text" : "AccessibilityAttachmentModifier"
+            },
+            {
+              "kind" : "text",
+              "text" : ">"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/semiliquidglass\/semiglasseffectcontainer\/accessibilitydirecttouch(_:options:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SemiliquidGlass/documentation/SemiliquidGlass": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SemiliquidGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer": {
+  "abstract" : [
+    {
+      "text" : "Makes ",
+      "type" : "text"
+    },
+    {
+      "code" : "GlassEffectContainer",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " usable on pre Liquid Glass OSs without availability checks.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Provides fallback variant content to display if client does not support Liquid Glass.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Optionally allows to display same content for both cases (if Liquid Glass is available or not).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlassEffectContainer"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlassEffectContainer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SemiGlassEffectContainer",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglasseffectcontainer"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer/accessibilityDirectTouch(_:options:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accessibilityDirectTouch"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "options"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI31AccessibilityDirectTouchOptionsV",
+      "text" : "AccessibilityDirectTouchOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI15ModifiedContentV",
+      "text" : "ModifiedContent"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI31AccessibilityAttachmentModifierV",
+      "text" : "AccessibilityAttachmentModifier"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/accessibilityDirectTouch(_:options:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "accessibilityDirectTouch(_:options:)",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglasseffectcontainer\/accessibilitydirecttouch(_:options:)"
+}
+}
+}

@@ -1,1 +1,467 @@
-{"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/semiliquidglass\/semiglasseffectcontainer\/navigationbartitle(_:displaymode:)-9xbsu"]}],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/navigationBarTitle(_:displayMode:)-9xbsu"},"kind":"symbol","schemaVersion":{"major":0,"patch":0,"minor":3},"sections":[],"abstract":[{"type":"text","text":"Inherited from "},{"type":"codeVoice","code":"View.navigationBarTitle(_:displayMode:)"},{"type":"text","text":"."}],"metadata":{"extendedModule":"SwiftUICore","role":"symbol","roleHeading":"Instance Method","platforms":[{"beta":false,"name":"iOS","introducedAt":"14.0","unavailable":false,"message":"Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)","deprecatedAt":"100000.0","deprecated":false},{"beta":false,"name":"visionOS","introducedAt":"1.0","unavailable":false,"message":"Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)","deprecatedAt":"100000.0","deprecated":false}],"title":"navigationBarTitle(_:displayMode:)","modules":[{"name":"SemiliquidGlass","relatedModules":["SwiftUICore"]}],"symbolKind":"method","externalID":"s:7SwiftUI4ViewPAAE18navigationBarTitle_11displayModeQrqd___AA010NavigationE4ItemV0f7DisplayH0OtSyRd__lF::SYNTHESIZED::s:15SemiliquidGlass04SemiB15EffectContainerV","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"navigationBarTitle","kind":"identifier"},{"text":"<","kind":"text"},{"text":"S","kind":"genericParameter"},{"text":">(","kind":"text"},{"text":"S","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"displayMode","kind":"externalParam"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:7SwiftUI17NavigationBarItemV","text":"NavigationBarItem","kind":"typeIdentifier"},{"text":".","kind":"text"},{"preciseIdentifier":"s:7SwiftUI17NavigationBarItemV16TitleDisplayModeO","text":"TitleDisplayMode","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"preciseIdentifier":"s:7SwiftUI4ViewP","text":"View","kind":"typeIdentifier"}]},"hierarchy":{"paths":[["doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer"]]},"primaryContentSections":[{"declarations":[{"tokens":[{"text":"nonisolated","kind":"attribute"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"navigationBarTitle","kind":"identifier"},{"text":"<","kind":"text"},{"text":"S","kind":"genericParameter"},{"text":">(","kind":"text"},{"text":"_","kind":"externalParam"},{"text":" ","kind":"text"},{"text":"title","kind":"internalParam"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"S"},{"kind":"text","text":", "},{"kind":"externalParam","text":"displayMode"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"NavigationBarItem","preciseIdentifier":"s:7SwiftUI17NavigationBarItemV"},{"kind":"text","text":"."},{"kind":"typeIdentifier","text":"TitleDisplayMode","preciseIdentifier":"s:7SwiftUI17NavigationBarItemV16TitleDisplayModeO"},{"kind":"text","text":") -> "},{"kind":"keyword","text":"some"},{"text":" ","kind":"text"},{"preciseIdentifier":"s:7SwiftUI4ViewP","text":"View","kind":"typeIdentifier"},{"text":" ","kind":"text"},{"text":"where","kind":"keyword"},{"text":" ","kind":"text"},{"text":"S","kind":"typeIdentifier"},{"text":" : ","kind":"text"},{"preciseIdentifier":"s:Sy","text":"StringProtocol","kind":"typeIdentifier"},{"text":"\n","kind":"text"}],"platforms":["macOS"],"languages":["swift"]}],"kind":"declarations"}],"deprecationSummary":[{"type":"paragraph","inlineContent":[{"type":"text","text":"Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)"}]}],"references":{"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer":{"url":"\/documentation\/semiliquidglass\/semiglasseffectcontainer","role":"symbol","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer","abstract":[{"text":"Makes ","type":"text"},{"code":"GlassEffectContainer","type":"codeVoice"},{"text":" usable on pre Liquid Glass OSs without availability checks.","type":"text"},{"type":"text","text":" "},{"type":"text","text":"Provides fallback variant content to display if client does not support Liquid Glass."},{"text":" ","type":"text"},{"text":"Optionally allows to display same content for both cases (if Liquid Glass is available or not).","type":"text"}],"fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"SemiGlassEffectContainer","kind":"identifier"}],"kind":"symbol","title":"SemiGlassEffectContainer","navigatorTitle":[{"text":"SemiGlassEffectContainer","kind":"identifier"}],"type":"topic"},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer/navigationBarTitle(_:displayMode:)-9xbsu":{"type":"topic","abstract":[],"role":"symbol","title":"navigationBarTitle(_:displayMode:)","url":"\/documentation\/semiliquidglass\/semiglasseffectcontainer\/navigationbartitle(_:displaymode:)-9xbsu","kind":"symbol","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/navigationBarTitle(_:displayMode:)-9xbsu","deprecated":true,"fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"text":"navigationBarTitle","kind":"identifier"},{"text":"<","kind":"text"},{"text":"S","kind":"genericParameter"},{"text":">(","kind":"text"},{"text":"S","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"displayMode","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"NavigationBarItem","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI17NavigationBarItemV"},{"text":".","kind":"text"},{"text":"TitleDisplayMode","preciseIdentifier":"s:7SwiftUI17NavigationBarItemV16TitleDisplayModeO","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"}]},"doc://SemiliquidGlass/documentation/SemiliquidGlass":{"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","title":"SemiliquidGlass","type":"topic","kind":"symbol","url":"\/documentation\/semiliquidglass","role":"collection","abstract":[]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.navigationBarTitle(_:displayMode:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/navigationBarTitle(_:displayMode:)-9xbsu"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE18navigationBarTitle_11displayModeQrqd___AA010NavigationE4ItemV0f7DisplayH0OtSyRd__lF::SYNTHESIZED::s:15SemiliquidGlass04SemiB15EffectContainerV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "navigationBarTitle"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "S"
+      },
+      {
+        "kind" : "text",
+        "text" : ">("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "S"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "displayMode"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI17NavigationBarItemV",
+        "text" : "NavigationBarItem"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI17NavigationBarItemV16TitleDisplayModeO",
+        "text" : "TitleDisplayMode"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SemiliquidGlass",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "14.0",
+        "message" : "Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "1.0",
+        "message" : "Use navigationTitle(_:) with navigationBarTitleDisplayMode(_:)",
+        "name" : "visionOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "navigationBarTitle(_:displayMode:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "navigationBarTitle"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "S"
+            },
+            {
+              "kind" : "text",
+              "text" : ">("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "title"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "S"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "displayMode"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI17NavigationBarItemV",
+              "text" : "NavigationBarItem"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI17NavigationBarItemV16TitleDisplayModeO",
+              "text" : "TitleDisplayMode"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "S"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sy",
+              "text" : "StringProtocol"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/semiliquidglass\/semiglasseffectcontainer\/navigationbartitle(_:displaymode:)-9xbsu"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SemiliquidGlass/documentation/SemiliquidGlass": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SemiliquidGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer": {
+  "abstract" : [
+    {
+      "text" : "Makes ",
+      "type" : "text"
+    },
+    {
+      "code" : "GlassEffectContainer",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " usable on pre Liquid Glass OSs without availability checks.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Provides fallback variant content to display if client does not support Liquid Glass.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Optionally allows to display same content for both cases (if Liquid Glass is available or not).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlassEffectContainer"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlassEffectContainer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SemiGlassEffectContainer",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglasseffectcontainer"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer/navigationBarTitle(_:displayMode:)-9xbsu": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navigationBarTitle"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "S"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "displayMode"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI17NavigationBarItemV",
+      "text" : "NavigationBarItem"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI17NavigationBarItemV16TitleDisplayModeO",
+      "text" : "TitleDisplayMode"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/navigationBarTitle(_:displayMode:)-9xbsu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navigationBarTitle(_:displayMode:)",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglasseffectcontainer\/navigationbartitle(_:displaymode:)-9xbsu"
+}
+}
+}

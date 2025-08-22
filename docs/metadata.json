@@ -1,1 +1,9 @@
-{"schemaVersion":{"patch":0,"major":0,"minor":1},"bundleDisplayName":"SemiliquidGlass","bundleID":"SemiliquidGlass"}
+{
+  "bundleDisplayName" : "SemiliquidGlass",
+  "bundleID" : "SemiliquidGlass",
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}

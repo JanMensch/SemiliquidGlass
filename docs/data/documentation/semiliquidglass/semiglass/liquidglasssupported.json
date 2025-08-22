@@ -1,1 +1,292 @@
-{"abstract":[{"text":"Static query property to determine whether liquid glass is supported by the client or not.","type":"text"},{"text":" ","type":"text"},{"text":"Use for switching out UI between old and new variants.","type":"text"}],"kind":"symbol","metadata":{"externalID":"s:15SemiliquidGlass04SemiB0V06liquidB9SupportedSbvpZ","roleHeading":"Type Property","modules":[{"name":"SemiliquidGlass"}],"fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"liquidGlassSupported"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:Sb","text":"Bool"}],"symbolKind":"property","title":"liquidGlassSupported","role":"symbol"},"sections":[],"primaryContentSections":[{"kind":"declarations","declarations":[{"platforms":["macOS"],"tokens":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"liquidGlassSupported"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":" { "},{"kind":"keyword","text":"get"},{"kind":"text","text":" }"}],"languages":["swift"]}]},{"kind":"content","content":[{"text":"Discussion","level":2,"type":"heading","anchor":"discussion"},{"type":"paragraph","inlineContent":[{"text":"Usage example:","type":"text"}]},{"syntax":"swift","type":"codeListing","code":["var body: some View {","    if SemiGlass.liquidGlassSupported {","        newViewContent","    } else {","        oldViewContent","    }","}"]}]}],"schemaVersion":{"major":0,"patch":0,"minor":3},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/liquidGlassSupported"},"hierarchy":{"paths":[["doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass"]]},"variants":[{"paths":["\/documentation\/semiliquidglass\/semiglass\/liquidglasssupported"],"traits":[{"interfaceLanguage":"swift"}]}],"references":{"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass":{"fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"SemiGlass","kind":"identifier"}],"title":"SemiGlass","navigatorTitle":[{"text":"SemiGlass","kind":"identifier"}],"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass","url":"\/documentation\/semiliquidglass\/semiglass","abstract":[{"type":"text","text":"This type makes it possible to refer to a “potentially existing” "},{"code":"Glass","type":"codeVoice"},{"text":" effect without needing to worry about availability checks yourself.","type":"text"}],"type":"topic","kind":"symbol","role":"symbol"},"doc://SemiliquidGlass/documentation/SemiliquidGlass":{"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","title":"SemiliquidGlass","type":"topic","kind":"symbol","url":"\/documentation\/semiliquidglass","role":"collection","abstract":[]},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/liquidGlassSupported":{"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/liquidGlassSupported","title":"liquidGlassSupported","type":"topic","kind":"symbol","abstract":[{"text":"Static query property to determine whether liquid glass is supported by the client or not.","type":"text"},{"text":" ","type":"text"},{"text":"Use for switching out UI between old and new variants.","type":"text"}],"fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"liquidGlassSupported"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"}],"url":"\/documentation\/semiliquidglass\/semiglass\/liquidglasssupported","role":"symbol"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Static query property to determine whether liquid glass is supported by the client or not.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Use for switching out UI between old and new variants.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/liquidGlassSupported"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15SemiliquidGlass04SemiB0V06liquidB9SupportedSbvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "liquidGlassSupported"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SemiliquidGlass"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Property",
+    "symbolKind" : "property",
+    "title" : "liquidGlassSupported"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "liquidGlassSupported"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Usage example:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "var body: some View {",
+            "    if SemiGlass.liquidGlassSupported {",
+            "        newViewContent",
+            "    } else {",
+            "        oldViewContent",
+            "    }",
+            "}"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/semiliquidglass\/semiglass\/liquidglasssupported"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SemiliquidGlass/documentation/SemiliquidGlass": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SemiliquidGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass": {
+  "abstract" : [
+    {
+      "text" : "This type makes it possible to refer to a “potentially existing” ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " effect without needing to worry about availability checks yourself.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlass"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlass"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SemiGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/liquidGlassSupported": {
+  "abstract" : [
+    {
+      "text" : "Static query property to determine whether liquid glass is supported by the client or not.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Use for switching out UI between old and new variants.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "liquidGlassSupported"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/liquidGlassSupported",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "liquidGlassSupported",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass\/liquidglasssupported"
+}
+}
+}

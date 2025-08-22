@@ -1,1 +1,497 @@
-{"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/semiliquidglass\/semiglasseffectcontainer\/accessibilitycustomcontent(_:_:importance:)-2boz1"]}],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/accessibilityCustomContent(_:_:importance:)-2boz1"},"metadata":{"fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"accessibilityCustomContent"},{"kind":"text","text":"("},{"preciseIdentifier":"s:7SwiftUI29AccessibilityCustomContentKeyV","kind":"typeIdentifier","text":"AccessibilityCustomContentKey"},{"kind":"text","text":", "},{"preciseIdentifier":"s:7SwiftUI18LocalizedStringKeyV","kind":"typeIdentifier","text":"LocalizedStringKey"},{"kind":"text","text":", "},{"kind":"externalParam","text":"importance"},{"kind":"text","text":": "},{"preciseIdentifier":"c:objc(cs)AXCustomContent","kind":"typeIdentifier","text":"AXCustomContent"},{"kind":"text","text":"."},{"preciseIdentifier":"c:@E@AXCustomContentImportance","kind":"typeIdentifier","text":"Importance"},{"kind":"text","text":") -> "},{"preciseIdentifier":"s:7SwiftUI15ModifiedContentV","kind":"typeIdentifier","text":"ModifiedContent"},{"kind":"text","text":"<"},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":", "},{"preciseIdentifier":"s:7SwiftUI31AccessibilityAttachmentModifierV","kind":"typeIdentifier","text":"AccessibilityAttachmentModifier"},{"kind":"text","text":">"}],"symbolKind":"method","roleHeading":"Instance Method","role":"symbol","externalID":"s:7SwiftUI4ViewPAAE26accessibilityCustomContent__10importanceAA08ModifiedF0VyxAA31AccessibilityAttachmentModifierVGAA0ieF3KeyV_AA015LocalizedStringL0VSo08AXCustomF10ImportanceVtF::SYNTHESIZED::s:15SemiliquidGlass04SemiB15EffectContainerV","extendedModule":"SwiftUICore","title":"accessibilityCustomContent(_:_:importance:)","platforms":[{"name":"iOS","unavailable":false,"deprecated":false,"introducedAt":"15.0","beta":false},{"name":"macOS","unavailable":false,"deprecated":false,"introducedAt":"12.0","beta":false},{"name":"tvOS","unavailable":false,"deprecated":false,"introducedAt":"15.0","beta":false},{"name":"watchOS","unavailable":false,"deprecated":false,"introducedAt":"8.0","beta":false}],"modules":[{"relatedModules":["SwiftUICore"],"name":"SemiliquidGlass"}]},"hierarchy":{"paths":[["doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer"]]},"schemaVersion":{"major":0,"patch":0,"minor":3},"sections":[],"primaryContentSections":[{"declarations":[{"tokens":[{"text":"nonisolated","kind":"attribute"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"accessibilityCustomContent","kind":"identifier"},{"text":"(","kind":"text"},{"text":"_","kind":"externalParam"},{"text":" ","kind":"text"},{"text":"key","kind":"internalParam"},{"text":": ","kind":"text"},{"text":"AccessibilityCustomContentKey","preciseIdentifier":"s:7SwiftUI29AccessibilityCustomContentKeyV","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"_","kind":"externalParam"},{"text":" ","kind":"text"},{"text":"valueKey","kind":"internalParam"},{"text":": ","kind":"text"},{"text":"LocalizedStringKey","preciseIdentifier":"s:7SwiftUI18LocalizedStringKeyV","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"importance","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"AXCustomContent","preciseIdentifier":"c:objc(cs)AXCustomContent","kind":"typeIdentifier"},{"text":".","kind":"text"},{"text":"Importance","preciseIdentifier":"c:@E@AXCustomContentImportance","kind":"typeIdentifier"},{"text":" = .default) -> ","kind":"text"},{"text":"ModifiedContent","preciseIdentifier":"s:7SwiftUI15ModifiedContentV","kind":"typeIdentifier"},{"text":"<","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"AccessibilityAttachmentModifier","preciseIdentifier":"s:7SwiftUI31AccessibilityAttachmentModifierV","kind":"typeIdentifier"},{"text":">","kind":"text"}],"platforms":["macOS"],"languages":["swift"]}],"kind":"declarations"}],"kind":"symbol","abstract":[{"type":"text","text":"Inherited from "},{"type":"codeVoice","code":"View.accessibilityCustomContent(_:_:importance:)"},{"type":"text","text":"."}],"references":{"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer/accessibilityCustomContent(_:_:importance:)-2boz1":{"role":"symbol","abstract":[],"kind":"symbol","type":"topic","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/accessibilityCustomContent(_:_:importance:)-2boz1","url":"\/documentation\/semiliquidglass\/semiglasseffectcontainer\/accessibilitycustomcontent(_:_:importance:)-2boz1","fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"text":"accessibilityCustomContent","kind":"identifier"},{"kind":"text","text":"("},{"preciseIdentifier":"s:7SwiftUI29AccessibilityCustomContentKeyV","kind":"typeIdentifier","text":"AccessibilityCustomContentKey"},{"kind":"text","text":", "},{"preciseIdentifier":"s:7SwiftUI18LocalizedStringKeyV","kind":"typeIdentifier","text":"LocalizedStringKey"},{"kind":"text","text":", "},{"kind":"externalParam","text":"importance"},{"kind":"text","text":": "},{"preciseIdentifier":"c:objc(cs)AXCustomContent","kind":"typeIdentifier","text":"AXCustomContent"},{"text":".","kind":"text"},{"preciseIdentifier":"c:@E@AXCustomContentImportance","text":"Importance","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"preciseIdentifier":"s:7SwiftUI15ModifiedContentV","text":"ModifiedContent","kind":"typeIdentifier"},{"text":"<","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"preciseIdentifier":"s:7SwiftUI31AccessibilityAttachmentModifierV","text":"AccessibilityAttachmentModifier","kind":"typeIdentifier"},{"text":">","kind":"text"}],"title":"accessibilityCustomContent(_:_:importance:)"},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer":{"url":"\/documentation\/semiliquidglass\/semiglasseffectcontainer","role":"symbol","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer","abstract":[{"text":"Makes ","type":"text"},{"code":"GlassEffectContainer","type":"codeVoice"},{"text":" usable on pre Liquid Glass OSs without availability checks.","type":"text"},{"type":"text","text":" "},{"type":"text","text":"Provides fallback variant content to display if client does not support Liquid Glass."},{"text":" ","type":"text"},{"text":"Optionally allows to display same content for both cases (if Liquid Glass is available or not).","type":"text"}],"fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"SemiGlassEffectContainer","kind":"identifier"}],"kind":"symbol","title":"SemiGlassEffectContainer","navigatorTitle":[{"text":"SemiGlassEffectContainer","kind":"identifier"}],"type":"topic"},"doc://SemiliquidGlass/documentation/SemiliquidGlass":{"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","title":"SemiliquidGlass","type":"topic","kind":"symbol","url":"\/documentation\/semiliquidglass","role":"collection","abstract":[]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.accessibilityCustomContent(_:_:importance:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/accessibilityCustomContent(_:_:importance:)-2boz1"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE26accessibilityCustomContent__10importanceAA08ModifiedF0VyxAA31AccessibilityAttachmentModifierVGAA0ieF3KeyV_AA015LocalizedStringL0VSo08AXCustomF10ImportanceVtF::SYNTHESIZED::s:15SemiliquidGlass04SemiB15EffectContainerV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "accessibilityCustomContent"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI29AccessibilityCustomContentKeyV",
+        "text" : "AccessibilityCustomContentKey"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI18LocalizedStringKeyV",
+        "text" : "LocalizedStringKey"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "importance"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)AXCustomContent",
+        "text" : "AXCustomContent"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@E@AXCustomContentImportance",
+        "text" : "Importance"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI15ModifiedContentV",
+        "text" : "ModifiedContent"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI31AccessibilityAttachmentModifierV",
+        "text" : "AccessibilityAttachmentModifier"
+      },
+      {
+        "kind" : "text",
+        "text" : ">"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SemiliquidGlass",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "15.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "12.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "15.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "8.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "accessibilityCustomContent(_:_:importance:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "accessibilityCustomContent"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "key"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI29AccessibilityCustomContentKeyV",
+              "text" : "AccessibilityCustomContentKey"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "valueKey"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI18LocalizedStringKeyV",
+              "text" : "LocalizedStringKey"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "importance"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:objc(cs)AXCustomContent",
+              "text" : "AXCustomContent"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@E@AXCustomContentImportance",
+              "text" : "Importance"
+            },
+            {
+              "kind" : "text",
+              "text" : " = .default) -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI15ModifiedContentV",
+              "text" : "ModifiedContent"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI31AccessibilityAttachmentModifierV",
+              "text" : "AccessibilityAttachmentModifier"
+            },
+            {
+              "kind" : "text",
+              "text" : ">"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/semiliquidglass\/semiglasseffectcontainer\/accessibilitycustomcontent(_:_:importance:)-2boz1"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SemiliquidGlass/documentation/SemiliquidGlass": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SemiliquidGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer": {
+  "abstract" : [
+    {
+      "text" : "Makes ",
+      "type" : "text"
+    },
+    {
+      "code" : "GlassEffectContainer",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " usable on pre Liquid Glass OSs without availability checks.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Provides fallback variant content to display if client does not support Liquid Glass.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Optionally allows to display same content for both cases (if Liquid Glass is available or not).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlassEffectContainer"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlassEffectContainer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SemiGlassEffectContainer",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglasseffectcontainer"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer/accessibilityCustomContent(_:_:importance:)-2boz1": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "accessibilityCustomContent"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI29AccessibilityCustomContentKeyV",
+      "text" : "AccessibilityCustomContentKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI18LocalizedStringKeyV",
+      "text" : "LocalizedStringKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "importance"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)AXCustomContent",
+      "text" : "AXCustomContent"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@AXCustomContentImportance",
+      "text" : "Importance"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI15ModifiedContentV",
+      "text" : "ModifiedContent"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI31AccessibilityAttachmentModifierV",
+      "text" : "AccessibilityAttachmentModifier"
+    },
+    {
+      "kind" : "text",
+      "text" : ">"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/accessibilityCustomContent(_:_:importance:)-2boz1",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "accessibilityCustomContent(_:_:importance:)",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglasseffectcontainer\/accessibilitycustomcontent(_:_:importance:)-2boz1"
+}
+}
+}

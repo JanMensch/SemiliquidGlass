@@ -1,1 +1,601 @@
-{"kind":"symbol","identifier":{"interfaceLanguage":"swift","url":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/dropDestination(for:action:isTargeted:)"},"schemaVersion":{"patch":0,"major":0,"minor":3},"metadata":{"modules":[{"relatedModules":["SwiftUICore"],"name":"SemiliquidGlass"}],"roleHeading":"Instance Method","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"dropDestination","kind":"identifier"},{"text":"<","kind":"text"},{"text":"T","kind":"genericParameter"},{"text":">(","kind":"text"},{"text":"for","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"T","kind":"typeIdentifier"},{"text":".Type, ","kind":"text"},{"text":"action","kind":"externalParam"},{"text":": ([","kind":"text"},{"text":"T","kind":"typeIdentifier"},{"text":"], ","kind":"text"},{"text":"CGPoint","preciseIdentifier":"c:@S@CGPoint","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"isTargeted","kind":"externalParam"},{"text":": (","kind":"text"},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"Void","preciseIdentifier":"s:s4Voida","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier"}],"extendedModule":"SwiftUICore","externalID":"s:7SwiftUI4ViewPAAE15dropDestination3for6action10isTargetedQrqd__m_SbSayqd__G_So7CGPointVtcySbct16CoreTransferable0L0Rd__lF::SYNTHESIZED::s:15SemiliquidGlass04SemiB15EffectContainerV","title":"dropDestination(for:action:isTargeted:)","symbolKind":"method","platforms":[{"name":"iOS","deprecatedAt":"100000.0","unavailable":false,"beta":false,"deprecated":false,"message":"Use `dropDestination(for:isEnabled:action:)` with an `action` that takes a `DropSession` parameter instead.","introducedAt":"16.0"},{"name":"macOS","deprecatedAt":"100000.0","unavailable":false,"beta":false,"deprecated":false,"message":"Use `dropDestination(for:isEnabled:action:)` with an `action` that takes a `DropSession` parameter instead.","introducedAt":"13.0"}],"role":"symbol"},"hierarchy":{"paths":[["doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer"]]},"primaryContentSections":[{"declarations":[{"languages":["swift"],"tokens":[{"kind":"attribute","text":"nonisolated"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"dropDestination"},{"kind":"text","text":"<"},{"kind":"genericParameter","text":"T"},{"kind":"text","text":">("},{"kind":"externalParam","text":"for"},{"kind":"text","text":" "},{"kind":"internalParam","text":"payloadType"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"T"},{"kind":"text","text":".Type = T.self, "},{"kind":"externalParam","text":"action"},{"kind":"text","text":": "},{"kind":"attribute","text":"@escaping "},{"kind":"text","text":"(["},{"kind":"typeIdentifier","text":"T"},{"kind":"text","text":"], "},{"kind":"typeIdentifier","text":"CGPoint","preciseIdentifier":"c:@S@CGPoint"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":", "},{"kind":"externalParam","text":"isTargeted"},{"kind":"text","text":": "},{"kind":"attribute","text":"@escaping "},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":") -> "},{"kind":"typeIdentifier","text":"Void","preciseIdentifier":"s:s4Voida"},{"kind":"text","text":" = { _ in }) -> "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"kind":"typeIdentifier","text":"View","preciseIdentifier":"s:7SwiftUI4ViewP"},{"kind":"text","text":" "},{"kind":"keyword","text":"where"},{"kind":"text","text":" "},{"kind":"typeIdentifier","text":"T"},{"kind":"text","text":" : "},{"kind":"typeIdentifier","text":"Transferable","preciseIdentifier":"s:16CoreTransferable0B0P"},{"kind":"text","text":"\n"}],"platforms":["macOS"]}],"kind":"declarations"}],"deprecationSummary":[{"inlineContent":[{"text":"Use `dropDestination(for:isEnabled:action:)` with an `action` that takes a `DropSession` parameter instead.","type":"text"}],"type":"paragraph"}],"abstract":[{"text":"Inherited from ","type":"text"},{"code":"View.dropDestination(for:action:isTargeted:)","type":"codeVoice"},{"text":".","type":"text"}],"sections":[],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/semiliquidglass\/semiglasseffectcontainer\/dropdestination(for:action:istargeted:)"]}],"references":{"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer/dropDestination(for:action:isTargeted:)":{"deprecated":true,"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/dropDestination(for:action:isTargeted:)","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"dropDestination","kind":"identifier"},{"text":"<","kind":"text"},{"text":"T","kind":"genericParameter"},{"text":">(","kind":"text"},{"text":"for","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"T","kind":"typeIdentifier"},{"text":".Type, ","kind":"text"},{"text":"action","kind":"externalParam"},{"text":": ([","kind":"text"},{"text":"T","kind":"typeIdentifier"},{"text":"], ","kind":"text"},{"text":"CGPoint","kind":"typeIdentifier","preciseIdentifier":"c:@S@CGPoint"},{"text":") -> ","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"},{"text":", ","kind":"text"},{"text":"isTargeted","kind":"externalParam"},{"text":": (","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"},{"text":") -> ","kind":"text"},{"text":"Void","kind":"typeIdentifier","preciseIdentifier":"s:s4Voida"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP"}],"url":"\/documentation\/semiliquidglass\/semiglasseffectcontainer\/dropdestination(for:action:istargeted:)","title":"dropDestination(for:action:isTargeted:)","type":"topic","abstract":[],"kind":"symbol","role":"symbol"},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer":{"url":"\/documentation\/semiliquidglass\/semiglasseffectcontainer","role":"symbol","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer","abstract":[{"text":"Makes ","type":"text"},{"code":"GlassEffectContainer","type":"codeVoice"},{"text":" usable on pre Liquid Glass OSs without availability checks.","type":"text"},{"type":"text","text":" "},{"type":"text","text":"Provides fallback variant content to display if client does not support Liquid Glass."},{"text":" ","type":"text"},{"text":"Optionally allows to display same content for both cases (if Liquid Glass is available or not).","type":"text"}],"fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"SemiGlassEffectContainer","kind":"identifier"}],"kind":"symbol","title":"SemiGlassEffectContainer","navigatorTitle":[{"text":"SemiGlassEffectContainer","kind":"identifier"}],"type":"topic"},"doc://SemiliquidGlass/documentation/SemiliquidGlass":{"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","title":"SemiliquidGlass","type":"topic","kind":"symbol","url":"\/documentation\/semiliquidglass","role":"collection","abstract":[]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.dropDestination(for:action:isTargeted:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Use `dropDestination(for:isEnabled:action:)` with an `action` that takes a `DropSession` parameter instead.",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/dropDestination(for:action:isTargeted:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE15dropDestination3for6action10isTargetedQrqd__m_SbSayqd__G_So7CGPointVtcySbct16CoreTransferable0L0Rd__lF::SYNTHESIZED::s:15SemiliquidGlass04SemiB15EffectContainerV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "dropDestination"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "genericParameter",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : ">("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "for"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : ".Type, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "action"
+      },
+      {
+        "kind" : "text",
+        "text" : ": (["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "T"
+      },
+      {
+        "kind" : "text",
+        "text" : "], "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@S@CGPoint",
+        "text" : "CGPoint"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "isTargeted"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s4Voida",
+        "text" : "Void"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SemiliquidGlass",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "16.0",
+        "message" : "Use `dropDestination(for:isEnabled:action:)` with an `action` that takes a `DropSession` parameter instead.",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "deprecatedAt" : "100000.0",
+        "introducedAt" : "13.0",
+        "message" : "Use `dropDestination(for:isEnabled:action:)` with an `action` that takes a `DropSession` parameter instead.",
+        "name" : "macOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "dropDestination(for:action:isTargeted:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "dropDestination"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "genericParameter",
+              "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : ">("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "for"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "payloadType"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : ".Type = T.self, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "action"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@escaping "
+            },
+            {
+              "kind" : "text",
+              "text" : "(["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : "], "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@S@CGPoint",
+              "text" : "CGPoint"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "isTargeted"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@escaping "
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s4Voida",
+              "text" : "Void"
+            },
+            {
+              "kind" : "text",
+              "text" : " = { _ in }) -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "where"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "T"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:16CoreTransferable0B0P",
+              "text" : "Transferable"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/semiliquidglass\/semiglasseffectcontainer\/dropdestination(for:action:istargeted:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SemiliquidGlass/documentation/SemiliquidGlass": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SemiliquidGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer": {
+  "abstract" : [
+    {
+      "text" : "Makes ",
+      "type" : "text"
+    },
+    {
+      "code" : "GlassEffectContainer",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " usable on pre Liquid Glass OSs without availability checks.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Provides fallback variant content to display if client does not support Liquid Glass.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Optionally allows to display same content for both cases (if Liquid Glass is available or not).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlassEffectContainer"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlassEffectContainer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SemiGlassEffectContainer",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglasseffectcontainer"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer/dropDestination(for:action:isTargeted:)": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dropDestination"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ".Type, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "action"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@S@CGPoint",
+      "text" : "CGPoint"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "isTargeted"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/dropDestination(for:action:isTargeted:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dropDestination(for:action:isTargeted:)",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglasseffectcontainer\/dropdestination(for:action:istargeted:)"
+}
+}
+}

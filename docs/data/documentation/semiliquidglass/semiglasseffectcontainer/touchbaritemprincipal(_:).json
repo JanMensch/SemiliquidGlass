@@ -1,1 +1,320 @@
-{"kind":"symbol","sections":[],"abstract":[{"type":"text","text":"Inherited from "},{"type":"codeVoice","code":"View.touchBarItemPrincipal(_:)"},{"type":"text","text":"."}],"schemaVersion":{"major":0,"minor":3,"patch":0},"hierarchy":{"paths":[["doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer"]]},"primaryContentSections":[{"declarations":[{"tokens":[{"text":"nonisolated","kind":"attribute"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"touchBarItemPrincipal","kind":"identifier"},{"text":"(","kind":"text"},{"text":"_","kind":"externalParam"},{"text":" ","kind":"text"},{"text":"principal","kind":"internalParam"},{"text":": ","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"},{"text":" = true) -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP"},{"text":"\n","kind":"text"}],"platforms":["macOS"],"languages":["swift"]}],"kind":"declarations"}],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/touchBarItemPrincipal(_:)"},"variants":[{"paths":["\/documentation\/semiliquidglass\/semiglasseffectcontainer\/touchbaritemprincipal(_:)"],"traits":[{"interfaceLanguage":"swift"}]}],"metadata":{"extendedModule":"SwiftUICore","role":"symbol","title":"touchBarItemPrincipal(_:)","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"touchBarItemPrincipal","kind":"identifier"},{"text":"(","kind":"text"},{"preciseIdentifier":"s:Sb","text":"Bool","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"preciseIdentifier":"s:7SwiftUI4ViewP","text":"View","kind":"typeIdentifier"}],"externalID":"s:7SwiftUI4ViewPAAE21touchBarItemPrincipalyQrSbF::SYNTHESIZED::s:15SemiliquidGlass04SemiB15EffectContainerV","symbolKind":"method","platforms":[{"introducedAt":"10.15","deprecated":false,"unavailable":false,"name":"macOS","beta":false}],"roleHeading":"Instance Method","modules":[{"name":"SemiliquidGlass","relatedModules":["SwiftUICore"]}]},"references":{"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer":{"url":"\/documentation\/semiliquidglass\/semiglasseffectcontainer","role":"symbol","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer","abstract":[{"text":"Makes ","type":"text"},{"code":"GlassEffectContainer","type":"codeVoice"},{"text":" usable on pre Liquid Glass OSs without availability checks.","type":"text"},{"type":"text","text":" "},{"type":"text","text":"Provides fallback variant content to display if client does not support Liquid Glass."},{"text":" ","type":"text"},{"text":"Optionally allows to display same content for both cases (if Liquid Glass is available or not).","type":"text"}],"fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"SemiGlassEffectContainer","kind":"identifier"}],"kind":"symbol","title":"SemiGlassEffectContainer","navigatorTitle":[{"text":"SemiGlassEffectContainer","kind":"identifier"}],"type":"topic"},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer/touchBarItemPrincipal(_:)":{"title":"touchBarItemPrincipal(_:)","kind":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"touchBarItemPrincipal","kind":"identifier"},{"text":"(","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"},{"text":") -> ","kind":"text"},{"text":"some","kind":"keyword"},{"text":" ","kind":"text"},{"text":"View","kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP"}],"abstract":[],"url":"\/documentation\/semiliquidglass\/semiglasseffectcontainer\/touchbaritemprincipal(_:)","type":"topic","role":"symbol","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/touchBarItemPrincipal(_:)"},"doc://SemiliquidGlass/documentation/SemiliquidGlass":{"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","title":"SemiliquidGlass","type":"topic","kind":"symbol","url":"\/documentation\/semiliquidglass","role":"collection","abstract":[]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "View.touchBarItemPrincipal(_:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/touchBarItemPrincipal(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewPAAE21touchBarItemPrincipalyQrSbF::SYNTHESIZED::s:15SemiliquidGlass04SemiB15EffectContainerV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "touchBarItemPrincipal"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SemiliquidGlass",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "10.15",
+        "name" : "macOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "touchBarItemPrincipal(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "nonisolated"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "touchBarItemPrincipal"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "principal"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " = true) -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/semiliquidglass\/semiglasseffectcontainer\/touchbaritemprincipal(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SemiliquidGlass/documentation/SemiliquidGlass": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SemiliquidGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer": {
+  "abstract" : [
+    {
+      "text" : "Makes ",
+      "type" : "text"
+    },
+    {
+      "code" : "GlassEffectContainer",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " usable on pre Liquid Glass OSs without availability checks.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Provides fallback variant content to display if client does not support Liquid Glass.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Optionally allows to display same content for both cases (if Liquid Glass is available or not).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlassEffectContainer"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlassEffectContainer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SemiGlassEffectContainer",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglasseffectcontainer"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer/touchBarItemPrincipal(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "touchBarItemPrincipal"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/touchBarItemPrincipal(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "touchBarItemPrincipal(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglasseffectcontainer\/touchbaritemprincipal(_:)"
+}
+}
+}

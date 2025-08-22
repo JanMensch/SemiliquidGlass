@@ -1,1 +1,315 @@
-{"abstract":[{"text":"Mirrors Apples ","type":"text"},{"code":"Glass.tint()","type":"codeVoice"},{"text":" function.","type":"text"}],"hierarchy":{"paths":[["doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass"]]},"identifier":{"url":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/tint(_:)","interfaceLanguage":"swift"},"schemaVersion":{"minor":3,"major":0,"patch":0},"kind":"symbol","primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["macOS"],"tokens":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"tint"},{"kind":"text","text":"("},{"kind":"externalParam","text":"_"},{"kind":"text","text":" "},{"kind":"internalParam","text":"tint"},{"kind":"text","text":": "},{"preciseIdentifier":"s:7SwiftUI5ColorV","kind":"typeIdentifier","text":"Color"},{"kind":"text","text":"?) -> "},{"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass","preciseIdentifier":"s:15SemiliquidGlass04SemiB0V","kind":"typeIdentifier","text":"SemiGlass"}]}],"kind":"declarations"},{"parameters":[{"content":[{"type":"paragraph","inlineContent":[{"text":"The tint color to set.","type":"text"}]}],"name":"tint"}],"kind":"parameters"},{"content":[{"level":2,"anchor":"discussion","type":"heading","text":"Discussion"},{"items":[{"content":[{"inlineContent":[{"text":"Returns a copy of the structure with a configured tint color.","type":"text"}],"type":"paragraph"}]}],"type":"unorderedList"}],"kind":"content"}],"metadata":{"modules":[{"name":"SemiliquidGlass"}],"role":"symbol","symbolKind":"method","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"tint","kind":"identifier"},{"text":"(","kind":"text"},{"text":"Color","preciseIdentifier":"s:7SwiftUI5ColorV","kind":"typeIdentifier"},{"text":"?) -> ","kind":"text"},{"text":"SemiGlass","preciseIdentifier":"s:15SemiliquidGlass04SemiB0V","kind":"typeIdentifier"}],"roleHeading":"Instance Method","title":"tint(_:)","externalID":"s:15SemiliquidGlass04SemiB0V4tintyAC7SwiftUI5ColorVSgF"},"sections":[],"variants":[{"paths":["\/documentation\/semiliquidglass\/semiglass\/tint(_:)"],"traits":[{"interfaceLanguage":"swift"}]}],"references":{"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass":{"fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"SemiGlass","kind":"identifier"}],"title":"SemiGlass","navigatorTitle":[{"text":"SemiGlass","kind":"identifier"}],"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass","url":"\/documentation\/semiliquidglass\/semiglass","abstract":[{"type":"text","text":"This type makes it possible to refer to a “potentially existing” "},{"code":"Glass","type":"codeVoice"},{"text":" effect without needing to worry about availability checks yourself.","type":"text"}],"type":"topic","kind":"symbol","role":"symbol"},"doc://SemiliquidGlass/documentation/SemiliquidGlass":{"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","title":"SemiliquidGlass","type":"topic","kind":"symbol","url":"\/documentation\/semiliquidglass","role":"collection","abstract":[]},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/tint(_:)":{"kind":"symbol","role":"symbol","abstract":[{"type":"text","text":"Mirrors Apples "},{"type":"codeVoice","code":"Glass.tint()"},{"type":"text","text":" function."}],"title":"tint(_:)","type":"topic","url":"\/documentation\/semiliquidglass\/semiglass\/tint(_:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"tint"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"Color","preciseIdentifier":"s:7SwiftUI5ColorV"},{"kind":"text","text":"?) -> "},{"kind":"typeIdentifier","text":"SemiGlass","preciseIdentifier":"s:15SemiliquidGlass04SemiB0V"}],"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/tint(_:)"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Mirrors Apples ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass.tint()",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " function.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/tint(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15SemiliquidGlass04SemiB0V4tintyAC7SwiftUI5ColorVSgF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "tint"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI5ColorV",
+        "text" : "Color"
+      },
+      {
+        "kind" : "text",
+        "text" : "?) -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:15SemiliquidGlass04SemiB0V",
+        "text" : "SemiGlass"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SemiliquidGlass"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "tint(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "tint"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "tint"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI5ColorV",
+              "text" : "Color"
+            },
+            {
+              "kind" : "text",
+              "text" : "?) -> "
+            },
+            {
+              "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:15SemiliquidGlass04SemiB0V",
+              "text" : "SemiGlass"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The tint color to set.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "tint"
+        }
+      ]
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Returns a copy of the structure with a configured tint color.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/semiliquidglass\/semiglass\/tint(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SemiliquidGlass/documentation/SemiliquidGlass": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SemiliquidGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass": {
+  "abstract" : [
+    {
+      "text" : "This type makes it possible to refer to a “potentially existing” ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " effect without needing to worry about availability checks yourself.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlass"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlass"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SemiGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/tint(_:)": {
+  "abstract" : [
+    {
+      "text" : "Mirrors Apples ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass.tint()",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " function.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tint"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI5ColorV",
+      "text" : "Color"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15SemiliquidGlass04SemiB0V",
+      "text" : "SemiGlass"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/tint(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tint(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass\/tint(_:)"
+}
+}
+}

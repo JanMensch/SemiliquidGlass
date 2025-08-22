@@ -1,1 +1,543 @@
-{"variants":[{"paths":["\/documentation\/semiliquidglass\/semiglasseffectcontainer\/glasseffectidifavailable(_:in:)"],"traits":[{"interfaceLanguage":"swift"}]}],"identifier":{"url":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/glassEffectIDIfAvailable(_:in:)","interfaceLanguage":"swift"},"metadata":{"title":"glassEffectIDIfAvailable(_:in:)","symbolKind":"method","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"glassEffectIDIfAvailable"},{"kind":"text","text":"(("},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"preciseIdentifier":"s:SH","kind":"typeIdentifier","text":"Hashable"},{"kind":"text","text":" & "},{"preciseIdentifier":"s:s8SendableP","kind":"typeIdentifier","text":"Sendable"},{"kind":"text","text":")?, "},{"kind":"externalParam","text":"in"},{"kind":"text","text":": "},{"preciseIdentifier":"s:7SwiftUI9NamespaceV","kind":"typeIdentifier","text":"Namespace"},{"kind":"text","text":"."},{"preciseIdentifier":"s:7SwiftUI9NamespaceV2IDV","kind":"typeIdentifier","text":"ID"},{"kind":"text","text":") -> "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier","text":"View"}],"externalID":"s:7SwiftUI4ViewP15SemiliquidGlassE24glassEffectIDIfAvailable_2inQrqd__Sg_AA9NamespaceV2IDVtSHRd__lF::SYNTHESIZED::s:15SemiliquidGlass04SemiB15EffectContainerV","extendedModule":"SwiftUICore","roleHeading":"Instance Method","role":"symbol","modules":[{"name":"SemiliquidGlass","relatedModules":["SwiftUICore"]}]},"schemaVersion":{"major":0,"minor":3,"patch":0},"kind":"symbol","hierarchy":{"paths":[["doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer"]]},"sections":[],"abstract":[{"type":"text","text":"Applies original "},{"type":"codeVoice","code":".glassEffectID()"},{"type":"text","text":" if it’s available."},{"type":"text","text":" "},{"type":"text","text":"Parameters are forwarded directly. For behavior documentation refer to Apple’s documentation:"},{"type":"text","text":" "},{"type":"reference","isActive":true,"identifier":"https:\/\/developer.apple.com\/documentation\/swiftui\/view\/glasseffectid(_:in:)"}],"primaryContentSections":[{"kind":"declarations","declarations":[{"platforms":["macOS"],"tokens":[{"text":"@","kind":"attribute"},{"text":"ViewBuilder","preciseIdentifier":"s:7SwiftUI11ViewBuilderV","kind":"attribute"},{"text":" ","kind":"text"},{"text":"@","kind":"attribute"},{"text":"MainActor","preciseIdentifier":"s:ScM","kind":"attribute"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"glassEffectIDIfAvailable","kind":"identifier"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"_"},{"kind":"text","text":" "},{"kind":"internalParam","text":"id"},{"kind":"text","text":": ("},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"preciseIdentifier":"s:SH","kind":"typeIdentifier","text":"Hashable"},{"kind":"text","text":" & "},{"preciseIdentifier":"s:s8SendableP","kind":"typeIdentifier","text":"Sendable"},{"kind":"text","text":")?, "},{"kind":"externalParam","text":"in"},{"kind":"text","text":" "},{"kind":"internalParam","text":"namespace"},{"kind":"text","text":": "},{"preciseIdentifier":"s:7SwiftUI9NamespaceV","kind":"typeIdentifier","text":"Namespace"},{"kind":"text","text":"."},{"preciseIdentifier":"s:7SwiftUI9NamespaceV2IDV","kind":"typeIdentifier","text":"ID"},{"kind":"text","text":") -> "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"preciseIdentifier":"s:7SwiftUI4ViewP","kind":"typeIdentifier","text":"View"},{"kind":"text","text":"\n"}],"languages":["swift"]}]},{"content":[{"anchor":"discussion","text":"Discussion","type":"heading","level":2},{"inlineContent":[{"type":"text","text":"If it is not available, this view does not get modified."}],"type":"paragraph"}],"kind":"content"}],"references":{"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer/glassEffectIDIfAvailable(_:in:)":{"fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"glassEffectIDIfAvailable"},{"kind":"text","text":"(("},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"kind":"typeIdentifier","preciseIdentifier":"s:SH","text":"Hashable"},{"kind":"text","text":" & "},{"kind":"typeIdentifier","preciseIdentifier":"s:s8SendableP","text":"Sendable"},{"kind":"text","text":")?, "},{"kind":"externalParam","text":"in"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI9NamespaceV","text":"Namespace"},{"kind":"text","text":"."},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI9NamespaceV2IDV","text":"ID"},{"kind":"text","text":") -> "},{"kind":"keyword","text":"some"},{"kind":"text","text":" "},{"kind":"typeIdentifier","preciseIdentifier":"s:7SwiftUI4ViewP","text":"View"}],"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/glassEffectIDIfAvailable(_:in:)","type":"topic","role":"symbol","kind":"symbol","title":"glassEffectIDIfAvailable(_:in:)","url":"\/documentation\/semiliquidglass\/semiglasseffectcontainer\/glasseffectidifavailable(_:in:)","abstract":[{"text":"Applies original ","type":"text"},{"code":".glassEffectID()","type":"codeVoice"},{"text":" if it’s available.","type":"text"},{"text":" ","type":"text"},{"text":"Parameters are forwarded directly. For behavior documentation refer to Apple’s documentation:","type":"text"},{"text":" ","type":"text"},{"isActive":true,"identifier":"https:\/\/developer.apple.com\/documentation\/swiftui\/view\/glasseffectid(_:in:)","type":"reference"}]},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer":{"url":"\/documentation\/semiliquidglass\/semiglasseffectcontainer","role":"symbol","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer","abstract":[{"text":"Makes ","type":"text"},{"code":"GlassEffectContainer","type":"codeVoice"},{"text":" usable on pre Liquid Glass OSs without availability checks.","type":"text"},{"type":"text","text":" "},{"type":"text","text":"Provides fallback variant content to display if client does not support Liquid Glass."},{"text":" ","type":"text"},{"text":"Optionally allows to display same content for both cases (if Liquid Glass is available or not).","type":"text"}],"fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"SemiGlassEffectContainer","kind":"identifier"}],"kind":"symbol","title":"SemiGlassEffectContainer","navigatorTitle":[{"text":"SemiGlassEffectContainer","kind":"identifier"}],"type":"topic"},"doc://SemiliquidGlass/documentation/SemiliquidGlass":{"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","title":"SemiliquidGlass","type":"topic","kind":"symbol","url":"\/documentation\/semiliquidglass","role":"collection","abstract":[]},"https://developer.apple.com/documentation/swiftui/view/glasseffectid(_:in:)":{"type":"link","url":"https:\/\/developer.apple.com\/documentation\/swiftui\/view\/glasseffectid(_:in:)","title":".glassEffectID()","titleInlineContent":[{"code":".glassEffectID()","type":"codeVoice"}],"identifier":"https:\/\/developer.apple.com\/documentation\/swiftui\/view\/glasseffectid(_:in:)"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Applies original ",
+      "type" : "text"
+    },
+    {
+      "code" : ".glassEffectID()",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " if it’s available.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Parameters are forwarded directly. For behavior documentation refer to Apple’s documentation:",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/developer.apple.com\/documentation\/swiftui\/view\/glasseffectid(_:in:)",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/glassEffectIDIfAvailable(_:in:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "SwiftUICore",
+    "externalID" : "s:7SwiftUI4ViewP15SemiliquidGlassE24glassEffectIDIfAvailable_2inQrqd__Sg_AA9NamespaceV2IDVtSHRd__lF::SYNTHESIZED::s:15SemiliquidGlass04SemiB15EffectContainerV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "glassEffectIDIfAvailable"
+      },
+      {
+        "kind" : "text",
+        "text" : "(("
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SH",
+        "text" : "Hashable"
+      },
+      {
+        "kind" : "text",
+        "text" : " & "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s8SendableP",
+        "text" : "Sendable"
+      },
+      {
+        "kind" : "text",
+        "text" : ")?, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "in"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI9NamespaceV",
+        "text" : "Namespace"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI9NamespaceV2IDV",
+        "text" : "ID"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "some"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:7SwiftUI4ViewP",
+        "text" : "View"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SemiliquidGlass",
+        "relatedModules" : [
+          "SwiftUICore"
+        ]
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "glassEffectIDIfAvailable(_:in:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:7SwiftUI11ViewBuilderV",
+              "text" : "ViewBuilder"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@"
+            },
+            {
+              "kind" : "attribute",
+              "preciseIdentifier" : "s:ScM",
+              "text" : "MainActor"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "glassEffectIDIfAvailable"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "id"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ("
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SH",
+              "text" : "Hashable"
+            },
+            {
+              "kind" : "text",
+              "text" : " & "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s8SendableP",
+              "text" : "Sendable"
+            },
+            {
+              "kind" : "text",
+              "text" : ")?, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "in"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "namespace"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI9NamespaceV",
+              "text" : "Namespace"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI9NamespaceV2IDV",
+              "text" : "ID"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "some"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:7SwiftUI4ViewP",
+              "text" : "View"
+            },
+            {
+              "kind" : "text",
+              "text" : "\n"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "If it is not available, this view does not get modified.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/semiliquidglass\/semiglasseffectcontainer\/glasseffectidifavailable(_:in:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SemiliquidGlass/documentation/SemiliquidGlass": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SemiliquidGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer": {
+  "abstract" : [
+    {
+      "text" : "Makes ",
+      "type" : "text"
+    },
+    {
+      "code" : "GlassEffectContainer",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " usable on pre Liquid Glass OSs without availability checks.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Provides fallback variant content to display if client does not support Liquid Glass.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Optionally allows to display same content for both cases (if Liquid Glass is available or not).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlassEffectContainer"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlassEffectContainer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SemiGlassEffectContainer",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglasseffectcontainer"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlassEffectContainer/glassEffectIDIfAvailable(_:in:)": {
+  "abstract" : [
+    {
+      "text" : "Applies original ",
+      "type" : "text"
+    },
+    {
+      "code" : ".glassEffectID()",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " if it’s available.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Parameters are forwarded directly. For behavior documentation refer to Apple’s documentation:",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/developer.apple.com\/documentation\/swiftui\/view\/glasseffectid(_:in:)",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "glassEffectIDIfAvailable"
+    },
+    {
+      "kind" : "text",
+      "text" : "(("
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SH",
+      "text" : "Hashable"
+    },
+    {
+      "kind" : "text",
+      "text" : " & "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s8SendableP",
+      "text" : "Sendable"
+    },
+    {
+      "kind" : "text",
+      "text" : ")?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "in"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI9NamespaceV",
+      "text" : "Namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI9NamespaceV2IDV",
+      "text" : "ID"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "some"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI4ViewP",
+      "text" : "View"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlassEffectContainer\/glassEffectIDIfAvailable(_:in:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "glassEffectIDIfAvailable(_:in:)",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglasseffectcontainer\/glasseffectidifavailable(_:in:)"
+},
+"https://developer.apple.com/documentation/swiftui/view/glasseffectid(_:in:)": {
+  "identifier" : "https:\/\/developer.apple.com\/documentation\/swiftui\/view\/glasseffectid(_:in:)",
+  "title" : ".glassEffectID()",
+  "titleInlineContent" : [
+    {
+      "code" : ".glassEffectID()",
+      "type" : "codeVoice"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/developer.apple.com\/documentation\/swiftui\/view\/glasseffectid(_:in:)"
+}
+}
+}

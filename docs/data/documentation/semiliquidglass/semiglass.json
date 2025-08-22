@@ -1,1 +1,664 @@
-{"schemaVersion":{"minor":3,"patch":0,"major":0},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass"},"kind":"symbol","metadata":{"role":"symbol","externalID":"s:15SemiliquidGlass04SemiB0V","symbolKind":"struct","navigatorTitle":[{"kind":"identifier","text":"SemiGlass"}],"title":"SemiGlass","roleHeading":"Structure","modules":[{"name":"SemiliquidGlass"}],"fragments":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"SemiGlass"}]},"abstract":[{"text":"This type makes it possible to refer to a “potentially existing” ","type":"text"},{"code":"Glass","type":"codeVoice"},{"text":" effect without needing to worry about availability checks yourself.","type":"text"}],"sections":[],"topicSections":[{"title":"Instance Properties","generated":true,"identifiers":["doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/mappedToAppleGlass"],"anchor":"Instance-Properties"},{"title":"Instance Methods","generated":true,"identifiers":["doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/interactive(_:)","doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/tint(_:)"],"anchor":"Instance-Methods"},{"title":"Type Properties","generated":true,"identifiers":["doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/clear","doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/identity","doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/liquidGlassSupported","doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/regular"],"anchor":"Type-Properties"},{"title":"Enumerations","generated":true,"identifiers":["doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/SemiGlassType"],"anchor":"Enumerations"},{"title":"Default Implementations","generated":true,"identifiers":["doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/Equatable-Implementations"],"anchor":"Default-Implementations"}],"relationshipsSections":[{"title":"Conforms To","identifiers":["doc:\/\/SemiliquidGlass\/SQ","doc:\/\/SemiliquidGlass\/s8SendableP","doc:\/\/SemiliquidGlass\/s16SendableMetatypeP"],"kind":"relationships","type":"conformsTo"}],"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"struct"},{"kind":"text","text":" "},{"kind":"identifier","text":"SemiGlass"}],"languages":["swift"],"platforms":["macOS"]}]}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/semiliquidglass\/semiglass"]}],"hierarchy":{"paths":[["doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass"]]},"references":{"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/liquidGlassSupported":{"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/liquidGlassSupported","title":"liquidGlassSupported","type":"topic","kind":"symbol","abstract":[{"text":"Static query property to determine whether liquid glass is supported by the client or not.","type":"text"},{"text":" ","type":"text"},{"text":"Use for switching out UI between old and new variants.","type":"text"}],"fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"var"},{"kind":"text","text":" "},{"kind":"identifier","text":"liquidGlassSupported"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"}],"url":"\/documentation\/semiliquidglass\/semiglass\/liquidglasssupported","role":"symbol"},"doc://SemiliquidGlass/s16SendableMetatypeP":{"title":"Swift.SendableMetatype","type":"unresolvable","identifier":"doc:\/\/SemiliquidGlass\/s16SendableMetatypeP"},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/SemiGlassType":{"role":"symbol","kind":"symbol","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/SemiGlassType","fragments":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"text":"SemiGlassType","kind":"identifier"}],"title":"SemiGlass.SemiGlassType","type":"topic","url":"\/documentation\/semiliquidglass\/semiglass\/semiglasstype","navigatorTitle":[{"text":"SemiGlassType","kind":"identifier"}],"abstract":[{"text":"Maps the ","type":"text"},{"code":"Glass","type":"codeVoice"},{"text":" types by Apple to an enum.","type":"text"}]},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/identity":{"type":"topic","url":"\/documentation\/semiliquidglass\/semiglass\/identity","title":"identity","abstract":[{"type":"text","text":"Use instead of "},{"code":"Glass.identity","type":"codeVoice"},{"type":"text","text":"."}],"kind":"symbol","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/identity","role":"symbol","fragments":[{"text":"static","kind":"keyword"},{"text":" ","kind":"text"},{"text":"let","kind":"keyword"},{"text":" ","kind":"text"},{"text":"identity","kind":"identifier"},{"text":": ","kind":"text"},{"text":"SemiGlass","kind":"typeIdentifier","preciseIdentifier":"s:15SemiliquidGlass04SemiB0V"}]},"doc://SemiliquidGlass/SQ":{"title":"Swift.Equatable","type":"unresolvable","identifier":"doc:\/\/SemiliquidGlass\/SQ"},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/Equatable-Implementations":{"role":"collectionGroup","kind":"article","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/Equatable-Implementations","title":"Equatable Implementations","url":"\/documentation\/semiliquidglass\/semiglass\/equatable-implementations","abstract":[],"type":"topic"},"doc://SemiliquidGlass/documentation/SemiliquidGlass":{"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass","title":"SemiliquidGlass","type":"topic","kind":"symbol","url":"\/documentation\/semiliquidglass","role":"collection","abstract":[]},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/tint(_:)":{"kind":"symbol","role":"symbol","abstract":[{"type":"text","text":"Mirrors Apples "},{"type":"codeVoice","code":"Glass.tint()"},{"type":"text","text":" function."}],"title":"tint(_:)","type":"topic","url":"\/documentation\/semiliquidglass\/semiglass\/tint(_:)","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"tint"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"Color","preciseIdentifier":"s:7SwiftUI5ColorV"},{"kind":"text","text":"?) -> "},{"kind":"typeIdentifier","text":"SemiGlass","preciseIdentifier":"s:15SemiliquidGlass04SemiB0V"}],"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/tint(_:)"},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass":{"fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"SemiGlass","kind":"identifier"}],"title":"SemiGlass","navigatorTitle":[{"text":"SemiGlass","kind":"identifier"}],"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass","url":"\/documentation\/semiliquidglass\/semiglass","abstract":[{"type":"text","text":"This type makes it possible to refer to a “potentially existing” "},{"code":"Glass","type":"codeVoice"},{"text":" effect without needing to worry about availability checks yourself.","type":"text"}],"type":"topic","kind":"symbol","role":"symbol"},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/clear":{"url":"\/documentation\/semiliquidglass\/semiglass\/clear","title":"clear","role":"symbol","kind":"symbol","type":"topic","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/clear","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"clear"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:15SemiliquidGlass04SemiB0V","text":"SemiGlass"}],"abstract":[{"type":"text","text":"Use instead of "},{"type":"codeVoice","code":"Glass.clear"},{"type":"text","text":"."}]},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/regular":{"type":"topic","url":"\/documentation\/semiliquidglass\/semiglass\/regular","role":"symbol","fragments":[{"kind":"keyword","text":"static"},{"kind":"text","text":" "},{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"kind":"identifier","text":"regular"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:15SemiliquidGlass04SemiB0V","text":"SemiGlass"}],"identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/regular","kind":"symbol","abstract":[{"type":"text","text":"Use instead of "},{"code":"Glass.regular","type":"codeVoice"},{"type":"text","text":"."}],"title":"regular"},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/interactive(_:)":{"role":"symbol","title":"interactive(_:)","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"interactive","kind":"identifier"},{"text":"(","kind":"text"},{"preciseIdentifier":"s:Sb","text":"Bool","kind":"typeIdentifier"},{"text":"?) -> ","kind":"text"},{"preciseIdentifier":"s:15SemiliquidGlass04SemiB0V","text":"SemiGlass","kind":"typeIdentifier"}],"url":"\/documentation\/semiliquidglass\/semiglass\/interactive(_:)","type":"topic","abstract":[{"type":"text","text":"Mirrors Apples "},{"type":"codeVoice","code":"Glass.interactive()"},{"type":"text","text":" function."}],"kind":"symbol","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/interactive(_:)"},"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/mappedToAppleGlass":{"type":"topic","kind":"symbol","role":"symbol","identifier":"doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/mappedToAppleGlass","title":"mappedToAppleGlass","url":"\/documentation\/semiliquidglass\/semiglass\/mappedtoappleglass","fragments":[{"text":"var","kind":"keyword"},{"text":" ","kind":"text"},{"text":"mappedToAppleGlass","kind":"identifier"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:7SwiftUI5GlassV","text":"Glass","kind":"typeIdentifier"}],"abstract":[{"type":"text","text":"Maps a "},{"type":"codeVoice","code":"SemiGlass"},{"type":"text","text":" to an actual iOS 26+ "},{"type":"codeVoice","code":"Glass"},{"type":"text","text":" enum instance."}]},"doc://SemiliquidGlass/s8SendableP":{"title":"Swift.Sendable","type":"unresolvable","identifier":"doc:\/\/SemiliquidGlass\/s8SendableP"}}}
+{
+  "abstract" : [
+    {
+      "text" : "This type makes it possible to refer to a “potentially existing” ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " effect without needing to worry about availability checks yourself.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:15SemiliquidGlass04SemiB0V",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "SemiGlass"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "SemiliquidGlass"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "SemiGlass"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "SemiGlass"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "SemiGlass"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/SemiliquidGlass\/SQ",
+        "doc:\/\/SemiliquidGlass\/s8SendableP",
+        "doc:\/\/SemiliquidGlass\/s16SendableMetatypeP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/mappedToAppleGlass"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/interactive(_:)",
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/tint(_:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "anchor" : "Type-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/clear",
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/identity",
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/liquidGlassSupported",
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/regular"
+      ],
+      "title" : "Type Properties"
+    },
+    {
+      "anchor" : "Enumerations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/SemiGlassType"
+      ],
+      "title" : "Enumerations"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/semiliquidglass\/semiglass"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://SemiliquidGlass/SQ": {
+  "identifier" : "doc:\/\/SemiliquidGlass\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "SemiliquidGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass": {
+  "abstract" : [
+    {
+      "text" : "This type makes it possible to refer to a “potentially existing” ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " effect without needing to worry about availability checks yourself.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlass"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlass"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SemiGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass\/equatable-implementations"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/SemiGlassType": {
+  "abstract" : [
+    {
+      "text" : "Maps the ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " types by Apple to an enum.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlassType"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/SemiGlassType",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SemiGlassType"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SemiGlass.SemiGlassType",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass\/semiglasstype"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/clear": {
+  "abstract" : [
+    {
+      "text" : "Use instead of ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass.clear",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clear"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15SemiliquidGlass04SemiB0V",
+      "text" : "SemiGlass"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/clear",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "clear",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass\/clear"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/identity": {
+  "abstract" : [
+    {
+      "text" : "Use instead of ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass.identity",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "identity"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15SemiliquidGlass04SemiB0V",
+      "text" : "SemiGlass"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/identity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "identity",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass\/identity"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/interactive(_:)": {
+  "abstract" : [
+    {
+      "text" : "Mirrors Apples ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass.interactive()",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " function.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "interactive"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15SemiliquidGlass04SemiB0V",
+      "text" : "SemiGlass"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/interactive(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "interactive(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass\/interactive(_:)"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/liquidGlassSupported": {
+  "abstract" : [
+    {
+      "text" : "Static query property to determine whether liquid glass is supported by the client or not.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Use for switching out UI between old and new variants.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "liquidGlassSupported"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/liquidGlassSupported",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "liquidGlassSupported",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass\/liquidglasssupported"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/mappedToAppleGlass": {
+  "abstract" : [
+    {
+      "text" : "Maps a ",
+      "type" : "text"
+    },
+    {
+      "code" : "SemiGlass",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " to an actual iOS 26+ ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " enum instance.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mappedToAppleGlass"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI5GlassV",
+      "text" : "Glass"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/mappedToAppleGlass",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mappedToAppleGlass",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass\/mappedtoappleglass"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/regular": {
+  "abstract" : [
+    {
+      "text" : "Use instead of ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass.regular",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "regular"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15SemiliquidGlass04SemiB0V",
+      "text" : "SemiGlass"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/regular",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "regular",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass\/regular"
+},
+"doc://SemiliquidGlass/documentation/SemiliquidGlass/SemiGlass/tint(_:)": {
+  "abstract" : [
+    {
+      "text" : "Mirrors Apples ",
+      "type" : "text"
+    },
+    {
+      "code" : "Glass.tint()",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " function.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tint"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7SwiftUI5ColorV",
+      "text" : "Color"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:15SemiliquidGlass04SemiB0V",
+      "text" : "SemiGlass"
+    }
+  ],
+  "identifier" : "doc:\/\/SemiliquidGlass\/documentation\/SemiliquidGlass\/SemiGlass\/tint(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tint(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/semiliquidglass\/semiglass\/tint(_:)"
+},
+"doc://SemiliquidGlass/s16SendableMetatypeP": {
+  "identifier" : "doc:\/\/SemiliquidGlass\/s16SendableMetatypeP",
+  "title" : "Swift.SendableMetatype",
+  "type" : "unresolvable"
+},
+"doc://SemiliquidGlass/s8SendableP": {
+  "identifier" : "doc:\/\/SemiliquidGlass\/s8SendableP",
+  "title" : "Swift.Sendable",
+  "type" : "unresolvable"
+}
+}
+}
