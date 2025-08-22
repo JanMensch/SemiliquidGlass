@@ -47,4 +47,22 @@ public extension View {
         }
     }
 
+    /// Applies original `.glassEffectUnion(id:namespace:)` if it's available.
+    /// Parameters are forwarded directly. For behavior documentation refer to Apple's documentation:
+    /// [`.glassEffectUnion(id:namespace:)`](https://developer.apple.com/documentation/swiftui/view/glasseffectunion(id:namespace:))
+    ///
+    /// If it is not available, this view does not get modified.
+    @ViewBuilder
+    func glassEffectUnionIfAvailable(
+        id: (some Hashable & Sendable)?,
+        namespace: Namespace.ID
+    ) -> some View {
+        if #available(iOS 26.0, tvOS 26.0, watchOS 26.0, macOS 26.0, *) {
+            self
+                .glassEffectUnion(id: id, namespace: namespace)
+        } else {
+            self
+        }
+    }
+
 }
