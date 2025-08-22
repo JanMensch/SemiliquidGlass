@@ -86,7 +86,9 @@ Plus a few cosmetic things:
 - Nicer documentation
 - Example project
 
-Input, suggestions and contributions are welcome.
+## Collaboration
+
+Input, suggestions and contributions are welcome. Please feel free to contact me to discuss ideas or even open a PR.
 
 ## Decisions made when building this library
 
