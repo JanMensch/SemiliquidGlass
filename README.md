@@ -77,11 +77,11 @@ All types, methods and properties carry documentation comments. You can inspect 
 
 Right now this library is in a pre-release state. Main things I'm still working on:
 
-- Naming of properties, methods and modifiers in the API. For example `.noGlassAvailable()` and `.whenGlassAvailable()`. I want it to be nice to write, nice to scan, but also easy to remove once you raise you deployment target and only support Liquid Glass OSs.
 - Support for `GlassEffectTransition`
 
 Plus a few cosmetic things:
 
+- Naming of properties, methods and modifiers in the API. For example `.noGlassAvailable()` and `.whenGlassAvailable()`. I want it to be nice to write, nice to scan, but also easy to remove once you raise you deployment target and only support Liquid Glass OSs.
 - Automated deployments, version bumps, documentation generation of this library
 - Nicer documentation
 - Example project
